@@ -2,17 +2,6 @@
 
 Aplicație desktop pentru Windows, realizată în **C#** cu **WPF** pe **.NET 8**. Se conectează la backend-ul Spring Boot și permite consultarea datelor de scouting direct de pe desktop.
 
-## Structura proiectului
-
-```
-FM26_ScoutClient/
-├── FM26_ScoutClient.sln
-└── FM26_ScoutClient/
-    ├── App.xaml / App.xaml.cs
-    ├── MainWindow.xaml / MainWindow.xaml.cs
-    ├── AssemblyInfo.cs
-    └── FM26_ScoutClient.csproj
-```
 
 ## Cerințe
 
