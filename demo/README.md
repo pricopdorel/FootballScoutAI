@@ -6,25 +6,6 @@ API REST realizat cu **Java** și **Spring Boot**, care gestionează ligi, echip
 
 Proiectul Maven se află în `demo/demo/`:
 
-```
-demo/demo/
-├── src/main/java/ProiectSCD_Dorel/
-│   ├── DemoApplication.java
-│   ├── config/
-│   │   └── WebConfig.java          # configurare web (CORS etc.)
-│   ├── controller/
-│   │   ├── AIScoutController.java
-│   │   ├── LeagueController.java
-│   │   ├── PlayerController.java
-│   │   └── TeamController.java
-│   ├── model/                      # entități: League, Player, Team
-│   ├── repo/                       # acces la date (leagueRepo, playerRepo, teamRepo)
-│   └── service/                    # logica de business
-├── src/main/resources/
-│   └── application.properties
-├── uploads/                        # imagini încărcate (ex: poze jucători)
-└── pom.xml
-```
 
 Arhitectura este pe straturi: **Controller → Service → Repository → Bază de date**.
 
