@@ -10,29 +10,6 @@ Interfața web a aplicației FootballScoutAI, construită cu **Vue 3** și **Vit
 - Filtrarea jucătorilor
 - Scouting asistat de AI
 
-## Structura proiectului
-
-```
-football-frontend/
-├── public/
-├── src/
-│   ├── assets/            # stiluri și imagini
-│   ├── components/
-│   │   ├── AddLeague.vue
-│   │   ├── AddPlayer.vue
-│   │   ├── AddTeam.vue
-│   │   ├── LeagueList.vue
-│   │   ├── PlayerFilter.vue
-│   │   └── PlayerManagement.vue
-│   ├── services/
-│   │   └── api.js         # apeluri către backend
-│   ├── App.vue
-│   └── main.js
-├── index.html
-├── package.json
-└── vite.config.js
-```
-
 ## Cerințe
 
 - [Node.js](https://nodejs.org/) 18 sau mai nou
